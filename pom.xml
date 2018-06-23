@@ -41,9 +41,23 @@
         </dependency>
 
         <!--TODO 1:添加的断路器依赖-->
+        <!-- hystrix 断路器-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <version>1.4.4.RELEASE</version>
+        </dependency>
+
+        <!--TODO 21:添加的断路器仪表盘依赖-->
+        <!--监控中心-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!-- hystrix-dashboard监控 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
             <version>1.4.4.RELEASE</version>
         </dependency>
 
